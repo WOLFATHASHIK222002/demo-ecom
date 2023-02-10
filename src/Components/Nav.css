@@ -1,0 +1,169 @@
+.logo {
+  width: 80px;
+  height: 70px;
+}
+.logo:hover {
+  transform: scale(1.2);
+}
+.mynav {
+  top: 30px;
+  position: absolute;
+  right: 200px;
+}
+.mainnav {
+  border-radius: 0 40px 0px 70;
+}
+.admin {
+  position: absolute !important;
+
+  border: 1px solid black;
+  right: 10px;
+  top: 40px;
+  width: 100px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 20px;
+  text-decoration: none;
+}
+.im {
+  font-family: monospace;
+  font-size: x-large;
+}
+.profile {
+  position: absolute;
+  width: 40px;
+  bottom: 5px;
+  border-radius: 50%;
+  box-shadow: 2px 5px 4px gray;
+}
+
+.profile:active {
+  transform: scale(1.2);
+}
+.mpcart {
+  margin-left: 50px;
+}
+.titleof-menu{
+  background-color: red;
+  color: white;
+}
+.count {
+  border: 1 px solid black;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: -35px;
+  margin-left: 10px;
+  background-color: red;
+  color: white;
+  width: 15px;
+  height: 15px;
+}
+.conutnum {
+  margin-left: 3.5px;
+  margin-top: -3.5px;
+  font-size: small;
+}
+.webfirst {
+  font-size: 79px;
+  margin-left: 250px;
+  margin-top: 70px;
+  position: absolute;
+  text-transform: initial;
+}
+.men {
+  font-size: 69px;
+  color: red;
+  display: flex;
+}
+.myimg {
+  height: 320px;
+  width: 140px;
+  object-fit: contain;
+  border-radius: 60px;
+}
+.myimg::after {
+  box-shadow: 2px 5px 4px gray;
+  border-radius: 20px;
+  
+}
+.slidemain {
+  border: 1px solid black;
+  box-shadow: 2px 5px 4px gray;
+  border-radius: 20px;
+margin-left: 53%;
+margin-right: 100px;
+margin-top: 40px;
+margin-bottom: 40px;
+}
+.slide1{
+  border-radius: 20px;
+}
+.slide{
+  width: 100%;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.full-slide{
+border: 1px solid black;
+margin: 20px;
+border-radius: 30px;
+box-shadow: 2px 10px 4px gray;
+}
+.createinp,
+.createselect {
+  padding: 10px;
+  text-align: center;
+}
+.createbutton1{
+  color: white;
+  background-color:yellowgreen;
+  width: 96%;
+  margin: 10px;
+}
+.container2 {
+  position: absolute;
+  border: 1px solid black;
+  width: 50%;
+  border-radius: 10px;
+  height: 700px;
+  margin-bottom: 10px;
+  margin-left: 350px;
+  margin-top: 10px;
+  box-shadow: 2px 10px 4px gray;
+}
+
+.inptext,
+.selectop {
+  padding: 5px;
+  width: 100%;
+}
+.uploadimg{
+  border: 1px solid black;
+  margin: 20px;
+  border-radius: 10px;
+}
+.uploadimgcenter {
+width: 200px;
+height: 130px;
+margin-bottom: 30px;
+margin-top: 80px;
+margin-left:230px;
+
+
+}
+.loadicon {
+  text-align: center;
+  margin-top: 100px;
+}
+.clickupload{
+  margin-left: 250px;
+  margin-top: 20px;
+}
+.deleimg{
+  position: absolute;
+  bottom: 3px;
+  right: 3px;
+  padding: 3px;
+  background-color: red;
+}
